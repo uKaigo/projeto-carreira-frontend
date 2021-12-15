@@ -1,0 +1,81 @@
+.header {
+  padding: 32px 0;
+
+  background: url(../img/destaque.jpeg) no-repeat;
+  background-size: cover;
+}
+
+.header .main-menu {
+  display: flex;
+  justify-content: center;
+}
+
+.header .menu-item {
+  display: inline-block;
+
+  margin: 0 0 32px 1px;
+}
+
+.header .menu-item a {
+  padding: 15px;
+  border-radius: 3px;
+
+  color: white;
+  background-color: rgba(0, 0, 0, 0.1);
+  transition: background-color 0.5s;
+
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.header .menu-item a:hover {
+  background-color: #42868a;
+}
+
+.header .jumbotron {
+  padding: 0 0 44px 0;
+
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.header .panel-main {
+  font-size: 3em;
+  text-shadow: 4px 4px 10px black;
+}
+
+.header .jumbotron .title {
+  color: white;
+  font-size: 1em; /* Só para ser específico */
+}
+
+.header .jumbotron .subtitle {
+  color: #64ff64;
+  font-size: 0.9em;
+
+  margin-top: 8px;
+}
+
+.header .jumbotron .panel-sub {
+  margin-top: 30px;
+  font-size: 1.1em;
+}
+
+.header .jumbotron .button {
+  display: inline-block;
+
+  color: white;
+  text-decoration: none;
+
+  padding: 25px 50px;
+  border-radius: 10px;
+
+  box-shadow: 1px 1px 5px black;
+  background-color: #42868a;
+}
+
+@media screen and (min-width: 600px) {
+  .header .jumbotron .panel-main {
+    font-size: 5em;
+  }
+}
