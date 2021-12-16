@@ -1,4 +1,44 @@
 .container {
   width: 95%;
+
   margin: 0 auto;
+}
+
+.field {
+  margin-bottom: 15px;
+}
+
+.field label {
+  display: block;
+
+  margin-bottom: 10px;
+
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+.field .field-input {
+  width: 100%;
+  display: block;
+
+  border: 1px solid black; /* Precisa padronizar a borda */
+  border-radius: 5px;
+  box-shadow: 1px 1px 10px #42868a;
+
+  padding: 5px;
+
+  font-size: 1.2em;
+}
+
+.button {
+  display: inline-block;
+
+  color: white;
+  text-decoration: none;
+  background-color: #42868a;
+
+  padding: 25px 50px;
+  border-radius: 10px;
+
+  box-shadow: 1px 1px 5px black;
 }

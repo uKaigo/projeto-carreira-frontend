@@ -61,19 +61,6 @@
   font-size: 1.1em;
 }
 
-.header .jumbotron .button {
-  display: inline-block;
-
-  color: white;
-  text-decoration: none;
-
-  padding: 25px 50px;
-  border-radius: 10px;
-
-  box-shadow: 1px 1px 5px black;
-  background-color: #42868a;
-}
-
 @media screen and (min-width: 600px) {
   .header .jumbotron .panel-main {
     font-size: 5em;
